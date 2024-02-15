@@ -10,7 +10,6 @@ public class GuessTheNumber {
         while(true) {
             Random rn = new Random();
             int val = rn.nextInt(100) + 1;
-            int score = 0;
             int attempt=7;
             while(attempt>0) {
                 System.out.print("Enter your guess: ");
